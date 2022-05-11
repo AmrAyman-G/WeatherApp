@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		21E8D2F501F988E416643A36 /* Pods_MyWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7984AFD0449B6591C71EB495 /* Pods_MyWeather.framework */; };
 		C5026797281916720079AF14 /* BackGround.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5026796281916720079AF14 /* BackGround.gif */; };
+		C520B772282B653E00CAA56B /* App image in Resources */ = {isa = PBXBuildFile; fileRef = C520B771282B653E00CAA56B /* App image */; };
 		C53E9E722818C8120026A225 /* gifToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E9E712818C8120026A225 /* gifToImage.swift */; };
 		C53E9E742818C9CA0026A225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53E9E732818C9CA0026A225 /* Assets.xcassets */; };
 		C56E7422281A2C94007A9025 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E7421281A2C94007A9025 /* SignUpView.swift */; };
@@ -31,6 +32,7 @@
 		731DD3828EAE21ACE40EA184 /* Pods-MyWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeather.debug.xcconfig"; path = "Target Support Files/Pods-MyWeather/Pods-MyWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		7984AFD0449B6591C71EB495 /* Pods_MyWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5026796281916720079AF14 /* BackGround.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BackGround.gif; path = ../../../../../Users/amr/.Trash/BackGround.gif; sourceTree = "<group>"; };
+		C520B771282B653E00CAA56B /* App image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "App image"; sourceTree = "<group>"; };
 		C53E9E712818C8120026A225 /* gifToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifToImage.swift; sourceTree = "<group>"; };
 		C53E9E732818C9CA0026A225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Users/amr/Downloads/Swifty-Weather-master/MyWeather/Assets.xcassets"; sourceTree = "<group>"; };
 		C56E7421281A2C94007A9025 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		C502679A281919440079AF14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C520B771282B653E00CAA56B /* App image */,
 				C587226628153800000E2866 /* Main.storyboard */,
 				C587226B28153801000E2866 /* LaunchScreen.storyboard */,
 			);
@@ -84,9 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				C53E9E712818C8120026A225 /* gifToImage.swift */,
-				C5E321862817BCA00040E1FA /* CollectionViewCell */,
-				C587227528153972000E2866 /* HourlyCollectionCell */,
-				C587227428153958000E2866 /* WeatherCell */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,6 +94,9 @@
 		C5354A3028191456008EDEA3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C5E321862817BCA00040E1FA /* CollectionViewCell */,
+				C587227528153972000E2866 /* HourlyCollectionCell */,
+				C587227428153958000E2866 /* WeatherCell */,
 				C587226428153800000E2866 /* ViewController.swift */,
 				C56E7421281A2C94007A9025 /* SignUpView.swift */,
 			);
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C520B772282B653E00CAA56B /* App image in Resources */,
 				C5026797281916720079AF14 /* BackGround.gif in Resources */,
 				C5C16CCE281A16FE00217141 /* GoogleService-Info.plist in Resources */,
 				C587226D28153801000E2866 /* LaunchScreen.storyboard in Resources */,
